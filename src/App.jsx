@@ -1,5 +1,4 @@
 import {createBrowserRouter, RouterProvider } from 'react-router-dom'
-import './App.css'
 import Feed  from './Components/Feed/Feed'
 import Layout from './Components/Layout/Layout'
 import VideoDetails from './Components/VideoDetails/VideoDetails'
