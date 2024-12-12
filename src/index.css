@@ -5,6 +5,23 @@ body {
   box-sizing: border-box;
 }
 
+.d-flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.css-1wd6uo1{
+  height: auto !important;
+  margin: 0 !important;
+  .css-ou3vv2-MuiCardContent-root{
+    padding-top: 0;
+  }
+  .css-1fim0a-MuiCardMedia-root{
+    margin: 16px auto;
+  }
+
+}
 a {
   text-decoration: none;
   color: black;
