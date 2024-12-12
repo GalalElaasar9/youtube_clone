@@ -4,7 +4,7 @@ import { demoProfilePicture } from '../../utils/constants';
 import { Link } from 'react-router-dom';
 
 function ChannelCard({channelDetail}) {
-  console.log(channelDetail);
+  // console.log(channelDetail);
   return (
     <Box sx={{ boxShadow:"none", borderRadius:'20px' , display:'flex' , justifyContent:"center" , alignItems:"center" , width:{xs:356 , md:300} , height:"326px" , margin:"16px auto"}}>
       <Link to={`/channel/${channelDetail?.snippet?.channelId}`}>

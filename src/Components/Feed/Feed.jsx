@@ -19,7 +19,7 @@ function Feed() {
           'x-rapidapi-host': 'youtube-v31.p.rapidapi.com'
         }
       })
-      console.log(data?.items);
+      // console.log(data?.items);
       setVideos(data?.items)
     } catch (error) {
       console.log('Error' , error);
