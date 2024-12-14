@@ -7,6 +7,7 @@ function Navbar() {
     <Stack
       direction={"row"}
       alignItems={"center"}
+      zIndex={50}
       p={2}
       sx={{position: "sticky",backgroundColor: "#000",top: 0,justifyContent: "space-between"}}>
       <Link to={"/"} style={{ display:"flex", alignItems:"center" }}>
