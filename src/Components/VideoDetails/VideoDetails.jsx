@@ -22,7 +22,7 @@ function VideoDetails() {
       })
       setVideoDetails(data?.items[0] || [])
     } catch (error) {
-      console.log("Error " , error);
+      // console.log("Error " , error);
       setVideoDetails([])
     }
   }
@@ -35,11 +35,11 @@ function VideoDetails() {
           'x-rapidapi-host': 'youtube-v31.p.rapidapi.com'
         }
       })
-      console.log(data?.items);
+      // console.log(data?.items);
       
       setRelatedVideos(data?.items || [])
     } catch (error) {
-      console.log("Error " , error);
+      // console.log("Error " , error);
       setRelatedVideos([])
     }
   }

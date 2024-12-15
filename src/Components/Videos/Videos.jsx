@@ -1,10 +1,9 @@
 import { Box, Stack } from "@mui/material"
 import VideoCard from "../VideoCard/VideoCard";
 import ChannelCard from "../ChannelCard/ChannelCard";
-import { Triangle } from "react-loader-spinner";
 
 const Videos = ({videos , direction}) => {
-  console.log(videos);
+  // console.log(videos);
   return (
     <Stack direction={direction || 'row'} flexWrap={"wrap"} justifyContent={'start'} gap={2}>
       {Array.isArray(videos) && videos.map((video, index) => (
